@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linlayout"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chattext1"
+        android:background="@drawable/corner"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:padding="5dp"
+        android:layout_marginTop="17dp"
+        android:textDirection="rtl"
+        android:backgroundTint="@color/me"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linlayout2"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chattext2"
+            android:background="@drawable/corner"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:padding="5dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="8dp"
+            android:textDirection="ltr"
+            android:backgroundTint="#D7DAF4"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
